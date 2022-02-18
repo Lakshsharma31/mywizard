@@ -1,10 +1,8 @@
-let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  let url = global.API('https://some-random-api.ml', '/canvas/gay', {
+  conn.sendFile(m.chat, global.API('https://some-random-api.ml', '/canvas/gay', {
     avatar: await conn.getProfilePicture(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
-  })
-  conn.sendFile(m.chat, url, 'gay.png', watermark, m, 0, { thumbnail: await (await fetch(url)).buffer() })
+  }), 'gay.png', '🌈pure gay', m)
 }
 
 handler.help = ['gay']
