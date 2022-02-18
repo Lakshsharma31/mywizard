@@ -20,8 +20,9 @@ const defaultMenu = {
   body: '├ %cmd',
   footer: '└────\n',
   after: `
-*%npmname@*
-${'```%npmdesc```'}
+🤍✨come back 🤍✨
+🤍✨babe🤍✨
+©𝙣𝙚𝙯𝙪𝙠𝙤 2022
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
