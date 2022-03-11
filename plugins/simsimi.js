@@ -10,3 +10,4 @@ handler.tags = ['fun']
 handler.command = /^(bot|simi)$/i
 
 module.exports = handler
+
