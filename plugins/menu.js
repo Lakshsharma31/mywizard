@@ -186,7 +186,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `*COMMAND LIST*`,
+                  "title": `*OWNER*`,
                   "description": "ᴹᴿ᭄ ᴋᴀᴋᴀsʜɪོ ×፝֟͜× Instagram link",
                   "rowId": ".git"
                 }, {
