@@ -176,7 +176,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 🧧 *OWNER* : ᴹᴿ᭄ ᴋᴀᴋᴀsʜɪོ ×፝֟͜× 
 🧧 *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
 🧧 *BOT NAME* : ᴹᴿ᭄ ᴋᴀᴋᴀsʜɪོ ×፝֟͜×
-└─────────────────⸙ \n\ ______`
+ 🎐\n\ ______`
           
            .trim(),
            "description": "*use #support to join our group*",
