@@ -34,7 +34,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'nulis': 'MagerNulis & Logo',
     'downloader': 'Downloader',
     'tools': 'Tools',
-    'Video Maker':'videomaker',
     'fun': 'Fun',
     'database': 'Database',
     'vote': 'Voting',
@@ -194,12 +193,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "title": "🧧XP menu🧧",
                   "description": "ــہہـــــــــــــــــــــ٨ــــــــــــــــــــــــ❥ــ٨ــــــــــــــــــــــــہـــــــــــــــــــــ❥ــ٨ــــــــــــــــــــــــــــ",
                   "rowId": ".? xp"
-
-                },  {
-                  "title": "🎐Video Maker Menu🎐",
-                  "description": "ــہہـــــــــــــــــــــ٨ــــــــــــــــــــــــ❥ــ٨ــــــــــــــــــــــــہـــــــــــــــــــــ❥ــ٨ــــــــــــــــــــــــــــ",
-                  "rowId": ".? .videomaker"
-
+                  
                 },{
                   "title": "🧧Sticker side🧧",
                   "description": "Features for making stickers",
