@@ -7,7 +7,7 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before: `🍀☃️ 𝕊𝔸𝕊𝕌𝕂𝔼𝕌ℂℍ𝕀ℍ𝔸 ☃️✨
 %readmore`.trimStart(),
-  header: '🤍✨ %category✨🤍 ',
+  header: '🎊🎊 %category side🎊🎊 ',
   body: '🍁 %cmd',
   footer: '🍀\n', 
   after: `🍀🎐𝕤𝕦𝕡𝕡𝕠𝕣𝕥 𝕘𝕣𝕠𝕦𝕡🍀🎐 https://chat.whatsapp.com/KgNMgAuJCDo398VA4FFSUn
