@@ -8,7 +8,7 @@ const defaultMenu = {
   before: `🎐🤍ᴹᴿ᭄ ᴋᴀᴋᴀsʜɪོ ×፝֟͜×🎐🤍
 %readmore`.trimStart(),
   header: '🤍✨ %category✨🤍 ',
-  body: '├ %cmd',
+  body: '🍁 %cmd',
   footer: '└────\n',
    
   after: `𝙘𝙤𝙢𝙚 𝙖𝙜𝙖𝙞𝙣 𝙗𝙮𝙚 𝙗𝙮𝙚 𝙗𝙧𝙤
