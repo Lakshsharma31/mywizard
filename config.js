@@ -37,7 +37,7 @@ global.wait = '_*✨🎗Please Wait✨🎗..*_'
 global.eror = '_*Server Error*_'
 global.fla = 'https://telegra.ph/file/ec2b48f080dcee9dd3819.jpg'
 
-global.watermark = '© ᴹᴿ᭄ ᴋᴀᴋᴀsʜɪོ ×፝֟͜×'
+global.watermark = '𝕊𝕒𝕤𝕦𝕜𝕖 𝟚𝟘𝟚𝟚'
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
