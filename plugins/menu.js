@@ -9,8 +9,7 @@ const defaultMenu = {
 %readmore`.trimStart(),
   header: '🤍✨ %category✨🤍 ',
   body: '🍁 %cmd',
-  footer: '└────\n',
-   
+  footer: '🍀\n', 
   after: `🍀🎐𝕤𝕦𝕡𝕡𝕠𝕣𝕥 𝕘𝕣𝕠𝕦𝕡🍀🎐 https://chat.whatsapp.com/KgNMgAuJCDo398VA4FFSUn
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
