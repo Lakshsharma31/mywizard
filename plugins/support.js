@@ -1,5 +1,5 @@
 let handler = async m => {
-    const grouplink = `🎐🍁Well... I'm that case sasuke support group https://chat.whatsapp.com/KgNMgAuJCDo398VA4FFSUn`
+    const grouplink = `🎐🍁Well... I'm that case sasuke support group https://chat.whatsapp.com/EQVwc08goNlLtSivsfmpUT`
     m.reply(grouplink, m.sender) 
     m.reply('🧧🍁send you a personal message regarding this🎐🍁')
 }
