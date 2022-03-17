@@ -1,31 +1,20 @@
-let fetch = require ('node-fetch')
-let handler = async (m, { conn }) => {
-    let haruno = `┌ 「 Rules 」
-│ 🛂 Supervision by the owner
-│ ✅ Please comply
-│ 
-│ Regulations can be at any time
-│changed for convenience
-└────
-1. Please don't spam bot commands
-2. Don't send virtex, bug, trojan, etc to bot number
-3. Insulting the owner will be picked up directly at their respective homes
-4. The bot/owner is not responsible for what the user does to the command bot
-5. Don't call / vc to bot numbers
-6. EXP/Limit/Level cheats are prohibited
-7. If the bot doesn't respond, it means it's off/fixed a bug
-8. Please report any bugs via *!report*
+let handler = async m => m.reply(`
+🏮 *BOT RULES*
 
-
- 「 Consequences 」
-1. If you violate rule number 5 (calling / vc) you will be blocked
-2. If you violate the rules number 1, 2, 3 then you can get banned from bots
-4. If you violate rule number 3 (insulting) then you will be picked up at your respective homes
-`.trim()
-    conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*RULES*')
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/707WLbK.jpeg")).buffer(), haruno, '© Wizard-Ser', 'ᴍᴇɴᴜ', '.menu', 'ᴏᴡɴᴇʀ', '.owner', m)
-}
-handler.tags = ['main']
+🔖 _Do not call bot, if you do then you'll get automatically blocked by bot._
+    
+🔖 _Do not spam bot with commands, if bot is not responding then it means either bot is off or there's internet issue at owner's end._
+    
+🔖 _Do not abuse/disrespect bot and its owner._
+    
+🔖 _If you see any bug/error in bot then report it to owner with the command !bug/report <problem>._
+    
+🔖 _If you want this bot in your group then contact owner by typing !owner/creator._
+    
+🔖 _Enjoy the bot and have fun._
+`.trim()) // Tambah sendiri kalo mau
 handler.help = ['rules']
-handler.command = /^(rule)$/i
+handler.tags = ['info']
+handler.command = /^rules$/i
+
 module.exports = handler
