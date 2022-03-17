@@ -10,7 +10,7 @@ const defaultMenu = {
   header: '🎊🎊 %category side🎊🎊 ',
   body: '🍁 %cmd',
   footer: '🍀\n', 
-  after: `🍀🎐𝕤𝕦𝕡𝕡𝕠𝕣𝕥 𝕘𝕣𝕠𝕦𝕡🍀🎐 https://chat.whatsapp.com/KgNMgAuJCDo398VA4FFSUn
+  after: `🍀🎐𝕤𝕦𝕡𝕡𝕠𝕣𝕥 𝕘𝕣𝕠𝕦𝕡🍀🎐 https://chat.whatsapp.com/EQVwc08goNlLtSivsfmpUT
 `, 
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
