@@ -5,7 +5,7 @@ let path = require('path')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
-  before: `🍀☃️ 𝕊𝔸𝕊𝕌𝕂𝔼𝕌ℂℍ𝕀ℍ𝔸 ☃️✨
+  before: `𝐅𝐀𝐋𝐋𝐄𝐍 𝐀𝐍𝐆𝐄𝐋☃️✨
 %readmore`.trimStart(),
   header: '❄ %category side❄',
   body: '🍁 %cmd',
