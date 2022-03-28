@@ -174,7 +174,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 └─────────────────⸙ \n\ ______`       
            .trim(),
            "description": "*use #support to join our group*",
-          "buttonText": "Click  Here",
+          "buttonText": "Command List",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
